@@ -2,6 +2,8 @@
     font-size: 25px;
     margin-left: 20px;
     font-weight: bold;
+    background-color: rgba(73, 18, 138);
+    color: white;
 }
 
 .highlight {
@@ -20,12 +22,14 @@
     display: flex;
     gap: 15px;
     font-size: 15px;
-    color: black;
+
 }
 
 .menu a {
     color: black;
     text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .button {
