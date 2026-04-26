@@ -48,3 +48,50 @@
   font-weight: 400;
   font-style: normal;
 }
+
+.box{
+    display: flex;
+    flex-direction: row;
+    background-color: blue;
+    border-width: 20px;
+    border-style: solid;
+    border-color: #DEDCFF;
+    gap: 20px;
+    width: 98%;
+    height: 1000px;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 30%;
+    height: 50%;
+    margin: 70px 20px 20px 20px;
+}
+
+.topic{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 92%;
+    height: 10%;
+    margin: 70px 20px 20px 20px;
+}
+
+.topic h1{
+    display: flex;
+    text-align: center;
+    
+}
+
+.desc{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 92%;
+    height: 50%;
+    margin: 70px 20px 20px 20px;
+}
