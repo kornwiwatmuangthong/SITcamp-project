@@ -1,38 +1,52 @@
-body { background-color: antiquewhite; margin: 0; padding: 0; }
+* { font-family: "K2D", sans-serif; box-sizing: border-box; }
+body { margin: 0; background-color: #000; background-image: linear-gradient(rgba(255, 235, 215, 0.8), rgba(255, 235, 215, 0.8)), url('page2.png'); background-size: cover; }
+
+/* Navbar */
 .navbar { display: flex; justify-content: space-between; align-items: center; background-color: rgb(152, 75, 32); padding: 15px 50px; }
 .logo { font-size: 25px; color: white; margin: 0; }
 .menu { display: flex; gap: 75px; }
 .menu a { color: antiquewhite; text-decoration: none; font-weight: bold; }
-.button {
-    background-color: white;
-    color: black;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 20px;
-    margin-right: 20px;
-    font-size:  15px;
-    border-color: white;
-    cursor: pointer;
-}
-* { font-family: "K2D", sans-serif; box-sizing: border-box; }
-.parent {
-    display: flex;
-    flex-direction: row;
+.button { background-color: white; color: black; padding: 10px 15px; border-radius: 20px; border: none; cursor: pointer; }
+
+
+.main-content-box {
+    background-color: rgba(255, 235, 215, 0.9);
+    margin: 30px auto;
+    margin-top: 30px auto;
+    padding: 40px;
+    width: 90%;
+    border-radius: 40px;
+    border-style: solid;
+    border: 2px solid #984b20;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
 }
 
-.children.p {
-    width: 200px;
+.parent { 
+    display: flex; 
+    flex-direction: row; 
+    gap: 30px; 
+}
+.children { 
+    color: #5d2e14; 
+    font-weight: bold;
+
 }
 
-.para1,
-.para3 {
-    color: brown;
-}
 
-@media(max-width: 1500px) {
-    .children.p {
-    width: 10px;
+.feature-container { display: flex; justify-content: center; gap: 20px; padding: 50px 20px; flex-wrap: wrap; }
+.feature-box {
+    background-color: rgba(255, 235, 215, 0.9);
+    padding: 20px; width: 220px; border-radius: 30px;
+    text-align: center; box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    border: 2px solid #984b20;
 }
+.feature-box h3 { color: #984b20; margin-top: 0; }
+
+.img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    display: block;
+    height: 500px;
+    width: 1250px;
 }
