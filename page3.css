@@ -1,7 +1,10 @@
+
+
+
 body {   margin: 0;
   padding: 0; 
   background-color: rgb(0, 0, 0);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://cdn.discordapp.com/attachments/1497959127832465498/1498156913626579075/collaboration-soace2028129.png?ex=69f022da&is=69eed15a&hm=89cb974a6a76d58f3e2c51b9938f626fc94069e16e430ab5ddcab8da5f18aeb6');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('page3.png');
   background-size: cover;
   background-size: 120%;
 }
@@ -34,11 +37,12 @@ body {   margin: 0;
 
 .card {
     background-color: burlywood;
-    color: white;
+    color: black;
     padding: 20px;
     border-radius: 10px;
     margin-top: 60px;
     transition: 0.3s;
+    font-weight: bold;
     overflow: hidden;
 }
 
@@ -52,6 +56,7 @@ body {   margin: 0;
 
 .card:hover {
     background-color: rgba(152, 75, 32, 0.8);
+    color: white;
 }
 
 .card:hover .long-desc {
