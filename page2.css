@@ -19,20 +19,16 @@ body { background-color: antiquewhite; margin: 0; padding: 0; }
 * { font-family: "K2D", sans-serif; box-sizing: border-box; }
 .parent {
     display: flex;
-    flex-direction: row;
 }
 
-.children.p {
-    width: 200px;
+.children {
+    width: 33%;
+    padding: 10px;
 }
 
-.para1,
-.para3 {
+img {
+    width: 100%;
+}
+.para1, .para3 {
     color: brown;
-}
-
-@media(max-width: 1500px) {
-    .children.p {
-    width: 10px;
-}
 }
