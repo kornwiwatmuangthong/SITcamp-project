@@ -1,36 +1,14 @@
-.logo {
-    font-size: 25px;
-    margin-left: 60px;
-    font-weight: bold;
-    color: white;
+body {   margin: 0;
+  padding: 0; 
+  background-color: rgb(0, 0, 0);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://cdn.discordapp.com/attachments/1497959127832465498/1498156913626579075/collaboration-soace2028129.png?ex=69f022da&is=69eed15a&hm=89cb974a6a76d58f3e2c51b9938f626fc94069e16e430ab5ddcab8da5f18aeb6');
+  background-size: cover;
+  background-size: 120%;
 }
-
-.highlight {
-    color: blue;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgb(152, 75, 32);
-}
-
-.menu {
-    display: flex;
-    gap: 50px;
-    font-size: 16px;
-    margin-left: 100px;
-}
-
-.menu a {
-    color: antiquewhite;
-    text-decoration: none;
-    font-weight: bold   ;
-}
-
+.navbar { display: flex; justify-content: space-between; align-items: center; background-color: rgb(152, 75, 32); padding: 15px 50px; }
+.logo { font-size: 25px; color: white; margin: 0; }
+.menu { display: flex; gap: 75px; }
+.menu a { color: antiquewhite; text-decoration: none; font-weight: bold; }
 .button {
     background-color: white;
     color: black;
@@ -42,34 +20,42 @@
     margin-right: 20px;
     font-size:  15px;
     border-color: white;
+    cursor: pointer;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 50px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.card {
+    background-color: burlywood;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 60px;
+    transition: 0.3s;
+    overflow: hidden;
+}
+
+.long-desc {
+    display: none;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #ccc;
 }
 
 
-
-
-*{
-  font-family: "K2D", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+.card:hover {
+    background-color: rgba(152, 75, 32, 0.8);
 }
 
-body {
-  padding: 0;
-  margin: 0;
+.card:hover .long-desc {
+    display: block;
 }
 
-.info {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: aqua;
-}
-
-
-
-.geminfo{
-    display: flex;
-}
-
-
-
+* { font-family: "K2D", sans-serif; box-sizing: border-box; }
