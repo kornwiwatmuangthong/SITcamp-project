@@ -6,7 +6,19 @@ body { margin: 0; background-color: #000; background-image: linear-gradient(rgba
 .logo { font-size: 25px; color: white; margin: 0; }
 .menu { display: flex; gap: 75px; }
 .menu a { color: antiquewhite; text-decoration: none; font-weight: bold; }
-.button { background-color: white; color: black; padding: 10px 15px; border-radius: 20px; border: none; cursor: pointer; }
+.button {
+    background-color: white;
+    color: black;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    margin-right: 20px;
+    font-size:  15px;
+    border-color: white;
+    cursor: pointer;
+}
 
 
 .main-content-box {
