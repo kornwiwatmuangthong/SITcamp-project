@@ -1,7 +1,13 @@
 
 
 
-body { background-color: antiquewhite; margin: 0; padding: 0; }
+body {   margin: 0;
+  padding: 0; 
+  background-color: rgb(0, 0, 0);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('page3.png');
+  background-size: cover;
+  background-size: 120%;
+}
 .navbar { display: flex; justify-content: space-between; align-items: center; background-color: rgb(152, 75, 32); padding: 15px 50px; }
 .logo { font-size: 25px; color: white; margin: 0; }
 .menu { display: flex; gap: 75px; }
@@ -31,11 +37,12 @@ body { background-color: antiquewhite; margin: 0; padding: 0; }
 
 .card {
     background-color: burlywood;
-    color: white;
+    color: black;
     padding: 20px;
     border-radius: 10px;
     margin-top: 60px;
     transition: 0.3s;
+    font-weight: bold;
     overflow: hidden;
 }
 
@@ -49,6 +56,7 @@ body { background-color: antiquewhite; margin: 0; padding: 0; }
 
 .card:hover {
     background-color: rgba(152, 75, 32, 0.8);
+    color: white;
 }
 
 .card:hover .long-desc {
