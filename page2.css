@@ -17,3 +17,22 @@ body { background-color: antiquewhite; margin: 0; padding: 0; }
     cursor: pointer;
 }
 * { font-family: "K2D", sans-serif; box-sizing: border-box; }
+.parent {
+    display: flex;
+    flex-direction: row;
+}
+
+.children.p {
+    width: 200px;
+}
+
+.para1,
+.para3 {
+    color: brown;
+}
+
+@media(max-width: 1500px) {
+    .children.p {
+    width: 10px;
+}
+}
