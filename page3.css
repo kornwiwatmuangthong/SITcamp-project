@@ -26,41 +26,60 @@ body {   margin: 0;
     cursor: pointer;
 }
 
+
+
+
 .card-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
     padding: 50px;
     max-width: 1200px;
     margin: auto;
 }
 
+
 .card {
     background-color: burlywood;
-    color: black;
-    padding: 20px;
+    padding: 15px;
     border-radius: 10px;
-    margin-top: 60px;
-    transition: 0.3s;
-    font-weight: bold;
+    transition: 0.4s;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
+
+
+
+.card-img {
+    width: 200px;
+    height: 250px;
+
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+}
+
 
 .long-desc {
     display: none;
-    margin-top: 10px;
     font-size: 14px;
-    color: #ccc;
+    color: #333;
 }
-
 
 .card:hover {
-    background-color: rgba(152, 75, 32, 0.8);
-    color: white;
+    background-color: rgba(255, 255, 255, 0.9);
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
 }
+
 
 .card:hover .long-desc {
     display: block;
 }
+
+
 
 * { font-family: "K2D", sans-serif; box-sizing: border-box; }
