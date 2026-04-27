@@ -57,8 +57,6 @@
     display: flex;
     flex-direction: row;
     border-width: 20px;
-    border-style: solid;
-    border-color: black;
     gap: 20px;
     width: 98%;
     height: 1000px;
@@ -66,42 +64,16 @@
     align-items: start;
 }
 
-.intro{
-    display: flex;
-    flex-direction: column;
-    background-color: darkorange;
-    width: 30%;
-    height: 50%;
-    margin: 230px 20px 20px 250px;
-}
-
 .topic{
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    width: 92%;
-    height: 15%;
-    margin: 70px 20px 20px 20px;
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
 }
 
-.topic h1{
-    font-family: "Cinzel", serif;
-    text-align: center;
+.topic .desc{
     
-}
-
-.desc{
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    width: 92%;
-    height: 50%;
-    margin: 70px 20px 20px 20px;
-}
-
-.desc p{
-    font-family: "Cinzel", serif;
-    text-align: center;
 }
 
 .img{
