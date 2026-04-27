@@ -25,4 +25,42 @@ body {
     cursor: pointer;
 }   
 
+.content{
+    font-size: large;
+    width: 1200px;
+    height: auto;
+    margin: 220px 0px 0px 100px;
+    color: white;
+}
+
+.content .desc{
+    padding-left: 0px;
+    padding-bottom: 25px;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.img{
+    width: 640px;
+    height: 655px;
+    background-image: url(https://cdn.discordapp.com/attachments/1497959127832465498/1498150463332286554/Gemini_Generated_Image_h2bw9fh2bw9fh2bw-removebg-preview.png?ex=69f01cd8&is=69eecb58&hm=415ea9e784b254eb63de47d1a990aa26d21a70b734350bf4bfa8bf6ec2cbf8cf);
+    background-size: cover;
+    margin-top: 200px;
+    padding-right: 500px;
+}
+
+.parent{
+    display: flex;
+    height: 550px;
+    align-items: center;
+    
+}
+
+@media(max-width: 1000px){
+    .parent{
+        flex-direction: column;
+        justify-content: start;
+        height: 2000px;
+    }
+}
 
