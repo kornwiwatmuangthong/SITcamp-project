@@ -1,7 +1,10 @@
+
+
+
 body { background-color: antiquewhite; margin: 0; padding: 0; }
 .navbar { display: flex; justify-content: space-between; align-items: center; background-color: rgb(152, 75, 32); padding: 15px 50px; }
 .logo { font-size: 25px; color: white; margin: 0; }
-.menu { display: flex; gap: 40px; }
+.menu { display: flex; gap: 75px; }
 .menu a { color: antiquewhite; text-decoration: none; font-weight: bold; }
 .button {
     background-color: white;
@@ -50,7 +53,6 @@ body { background-color: antiquewhite; margin: 0; padding: 0; }
 
 .card:hover .long-desc {
     display: block;
-}* { font-family: "K2D", sans-serif; box-sizing: border-box; }
+}
 
-
-
+* { font-family: "K2D", sans-serif; box-sizing: border-box; }
