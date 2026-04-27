@@ -1,36 +1,16 @@
-.logo {
-    font-size: 25px;
-    margin-left: 60px;
-    font-weight: bold;
-    color: white;
+body { 
+  margin: 0;
+  padding: 0; 
+  background-color: rgb(0, 0, 0);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('background.png');
+  background-size: cover;
+  background-size: 100%;
 }
-
-.highlight {
-    color: blue;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgb(152, 75, 32);
-}
-
-.menu {
-    display: flex;
-    gap: 80px;
-    font-size: 16px;
-    margin-left: 100px;
-}
-
-.menu a {
-    color: antiquewhite;
-    text-decoration: none;
-    font-weight: bold   ;
-}
-
+* { font-family: "K2D", sans-serif; box-sizing: border-box; }
+.navbar { display: flex; justify-content: space-between; align-items: center; background-color: rgb(152, 75, 32); padding: 15px 50px; }
+.logo { font-size: 25px; color: white; margin: 0; }
+.menu { display: flex; gap: 40px;}
+.menu a { color: antiquewhite; text-decoration: none; font-weight: bold; }
 .button {
     background-color: white;
     color: black;
@@ -42,57 +22,7 @@
     margin-right: 20px;
     font-size:  15px;
     border-color: white;
-}
-
-
-
-
-*{
-  font-family: "K2D", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.box{
-    display: flex;
-    flex-direction: row;
-    border-width: 20px;
-    gap: 20px;
-    width: 98%;
-    height: 1000px;
-    justify-content: space-between;
-    align-items: start;
-}
-
-.topic{
-    width: 1200px;
-    height: auto;
-    margin: auto;
-    color: white;
-    position: relative;
-}
-
-.topic .desc{
-    
-}
-
-.img{
-    width: 640px;
-    height: 650px;
-    background-image: url(https://cdn.discordapp.com/attachments/1497959127832465498/1497987326289383655/gaunlet-removebg-preview_1.png?ex=69ef84e9&is=69ee3369&hm=7846f367a6582f38feb4f4c9e1609b28dd015019ca415999b072e4eed8168225);
-    background-size: 100%;
-    justify-content: flex-end;
-    margin-top: 9%;
-    margin-right: 15px;
-
-}
-body {
-  background-color: rgb(0, 0, 0);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('background.png');
-  background-size: cover;
-    background-size: 100%;
-  padding: 0;
-  margin: 0;
-}
+    cursor: pointer;
+}   
 
 
